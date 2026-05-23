@@ -766,6 +766,35 @@
   }
 
 }
+@media (max-width: 600px) {
+
+  nav {
+    padding-top: env(safe-area-inset-top);
+    height: 72px !important;
+
+    display: flex;
+    align-items: flex-end;
+
+    padding-bottom: 12px;
+
+    background: rgba(250,248,244,0.92);
+    backdrop-filter: blur(14px);
+  }
+
+  .nav-brand {
+    font-size: 14px !important;
+    line-height: 1;
+  }
+
+  .progress-bar-wrap {
+    top: 72px !important;
+  }
+
+  body {
+    padding-top: 72px;
+  }
+
+}
 </style>
 </head>
 <body>
